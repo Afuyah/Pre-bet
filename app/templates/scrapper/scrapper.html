@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrape Data</title>
+</head>
+<body>
+    <h2>Scrape Data</h2>
+    <form action="{{ url_for('scraper.scrape') }}" method="post">
+        <input type="submit" value="Scrape">
+    </form>
+</body>
+</html>
